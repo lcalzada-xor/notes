@@ -1,0 +1,11 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](price|cost|total|subtotal|amount|value)=",
+    "[?&](discount|coupon|promo|voucher|offer)=",
+    "[?&](quantity|qty|count|number)=",
+    "[?&](currency|cur|rate|exchange)=",
+    "/api/v[0-9]/(?:pricing|payment|billing|invoice)",
+    "[?&](referral|affiliate|partner)="
+  ]
+}

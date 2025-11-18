@@ -1,0 +1,12 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "Access-Control-Allow-Origin:\\s*\\*",
+    "Access-Control-Allow-Origin:\\s*null",
+    "Access-Control-Allow-Credentials:\\s*true",
+    "Access-Control-Allow-Methods",
+    "Access-Control-Allow-Headers",
+    "[?&]origin=https?://",
+    "[?&](callback|jsonp)="
+  ]
+}

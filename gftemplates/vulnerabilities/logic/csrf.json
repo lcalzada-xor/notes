@@ -1,0 +1,11 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "/(?:delete|remove|update|edit|change|modify|transfer|withdraw)",
+    "/api/v[0-9]/(?:user|account|profile|settings)",
+    "[?&](csrf|xsrf|_token|authenticity_token|anti_csrf)=",
+    "/(?:password|email|username)/change",
+    "X-CSRF-Token:",
+    "X-XSRF-Token:"
+  ]
+}

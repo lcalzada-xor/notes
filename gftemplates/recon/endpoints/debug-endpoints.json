@@ -1,0 +1,19 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "/debug",
+    "/trace",
+    "/test",
+    "/dev",
+    "/development",
+    "/staging",
+    "/phpinfo",
+    "/server-status",
+    "/server-info",
+    "/health",
+    "/status",
+    "/metrics",
+    "/actuator",
+    "/.env"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "\\.yaml$",
+    "\\.yml$",
+    "Content-Type:\\s*application/yaml",
+    "Content-Type:\\s*text/yaml",
+    "^---\\s*$"
+  ]
+}

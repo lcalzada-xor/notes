@@ -1,0 +1,13 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "/graphql",
+    "/graphiql",
+    "/api/graphql",
+    "\\{\\s*(query|mutation|subscription)\\s*\\{",
+    "__schema",
+    "__type",
+    "IntrospectionQuery",
+    "[?&](query|mutation|variables|operationName)="
+  ]
+}

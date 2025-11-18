@@ -1,0 +1,10 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "eyJ[A-Za-z0-9_-]+\\.eyJ[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]*",
+    "[?&](token|jwt|auth|authorization|bearer|access_token)=eyJ",
+    "Authorization:\\s*Bearer\\s+eyJ[A-Za-z0-9_-]+",
+    "\"token\":\\s*\"eyJ[A-Za-z0-9_-]+",
+    "Cookie:\\s*.*?jwt=eyJ"
+  ]
+}

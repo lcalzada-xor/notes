@@ -1,0 +1,11 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&]([a-zA-Z0-9_-]+)=.*?(<|%3C|&lt;|\\\\x3c|\\\\u003c)",
+    "[?&](q|query|search|keyword|name|comment|msg|message|description|text|input|title|subject)=",
+    "[?&]([a-zA-Z0-9_-]*)(callback|redirect|return|next|url|dest|destination|continue|view)[a-zA-Z0-9_-]*=",
+    "\\.(html|htm|php|asp|aspx|jsp)\\?[^\\s]*?=[^\\s]*?(<script|javascript:|onerror|onload|onclick)",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(script|iframe|img|svg|object|embed|body|html)",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(alert|confirm|prompt|eval|expression)"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "/config",
+    "/configuration",
+    "/settings",
+    "\\.config$",
+    "\\.cfg$",
+    "\\.conf$",
+    "\\.ini$",
+    "\\.yaml$",
+    "\\.yml$",
+    "\\.toml$",
+    "\\.json$",
+    "/web\\.config",
+    "/.htaccess"
+  ]
+}

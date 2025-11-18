@@ -1,0 +1,13 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](xml|feed|soap|wsdl|rss|atom|sitemap)=",
+    "<!ENTITY",
+    "<!DOCTYPE",
+    "SYSTEM\\s+[\"']",
+    "PUBLIC\\s+[\"']",
+    "Content-Type:\\s*application/xml",
+    "Content-Type:\\s*text/xml",
+    "<?xml"
+  ]
+}

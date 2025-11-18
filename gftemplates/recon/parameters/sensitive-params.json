@@ -1,0 +1,11 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "[?&](email|mail|e-mail|e_mail)=",
+    "[?&](phone|mobile|tel|telephone|cell)=",
+    "[?&](ssn|social|tax|passport|license|dni)=",
+    "[?&](credit|card|cvv|ccv|cc|cardnumber)=",
+    "[?&](address|location|lat|long|latitude|longitude|gps)=",
+    "[?&](birth|birthday|dob|age)="
+  ]
+}

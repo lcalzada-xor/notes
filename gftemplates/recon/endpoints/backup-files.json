@@ -1,0 +1,16 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "\\.(bak|backup|old|orig|original|save|saved|copy|tmp|temp)$",
+    "\\.zip$",
+    "\\.tar(\\.gz)?$",
+    "\\.sql$",
+    "\\.db$",
+    "\\.sqlite$",
+    "backup/",
+    "/old/",
+    "\\.git/",
+    "\\.svn/",
+    "\\.DS_Store$"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "[?&](debug|test|demo|dev|staging|admin|root|config|backup|temp|old)=",
+    "[?&](key|token|secret|password|pass|pwd|api|auth)=",
+    "[?&](version|ver|v|build|release)=",
+    "[?&](internal|private|hidden|flag|enabled|disabled)=",
+    "[?&](mode|env|environment)=",
+    "[?&](log|logger|trace|verbose)="
+  ]
+}

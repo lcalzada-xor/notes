@@ -1,0 +1,10 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](redirect|url|next|return|continue|redir|redirect_uri|return_url|returnto|returnUrl)=https?://",
+    "[?&](dest|destination|goto|target|view|checkout|forward|to)=",
+    "Location:\\s*https?://[^\\s]+",
+    "[?&](out|exit|leave|away|external)=",
+    "[?&](link|site|domain|host)=https?://"
+  ]
+}

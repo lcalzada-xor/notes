@@ -1,0 +1,11 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](__proto__|constructor|prototype)=",
+    "[?&]([a-zA-Z0-9_-]+)\\[(__proto__|constructor|prototype)\\]",
+    "\\.(__proto__|constructor|prototype)\\.",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(__proto__|constructor\\.prototype)",
+    "\\{\\s*\"__proto__\"\\s*:",
+    "\\[\"__proto__\"\\]"
+  ]
+}

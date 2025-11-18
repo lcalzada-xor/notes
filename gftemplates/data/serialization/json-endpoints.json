@@ -1,0 +1,11 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "Content-Type:\\s*application/json",
+    "\\.json$",
+    "\\{[\"'][a-zA-Z0-9_]+[\"']:",
+    "/api/.*\\.json",
+    "application/json",
+    "Accept:\\s*application/json"
+  ]
+}

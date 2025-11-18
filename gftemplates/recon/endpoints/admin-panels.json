@@ -1,0 +1,19 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "/admin",
+    "/administrator",
+    "/wp-admin",
+    "/dashboard",
+    "/panel",
+    "/cpanel",
+    "/control",
+    "/manage",
+    "/console",
+    "/backend",
+    "/phpmyadmin",
+    "/adminer",
+    "/manager",
+    "/admin-console"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](session|sess|sessionid|sid|token|auth|authtoken)=",
+    "Cookie:\\s*(PHPSESSID|JSESSIONID|ASPSESSIONID|session|auth|token)",
+    "[?&](remember|keepalive|persistent|stay_logged)=",
+    "Set-Cookie:\\s*session",
+    "[?&](csrf|xsrf|_token|authenticity_token)="
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](file|document|folder|root|path|pg|page|include|template|view|dir|locale|lang|language)=",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(\\.\\./|%2e%2e/|\\.\\.\\/|%2e%2e%5c|\\.\\.\\\\|%252e%252e)",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(/etc/|/var/|/proc/|/sys/|/tmp/|c:\\\\|windows|win\\.ini)",
+    "[?&](cat|load|read|source|show|display)=",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(passwd|shadow|hosts|issue|group)"
+  ]
+}

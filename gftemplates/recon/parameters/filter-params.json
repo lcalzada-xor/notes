@@ -1,0 +1,11 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "[?&](filter|search|query|q|keyword|term)=",
+    "[?&](sort|sortby|orderby|order)=",
+    "[?&](limit|count|per_page|perpage|pagesize|size)=",
+    "[?&](offset|page|skip|start|from)=",
+    "[?&](category|tag|type|status|state)=",
+    "[?&](field|fields|select|columns)="
+  ]
+}

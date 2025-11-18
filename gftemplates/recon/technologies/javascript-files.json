@@ -1,0 +1,17 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "\\.js$",
+    "\\.jsx$",
+    "\\.ts$",
+    "\\.tsx$",
+    "/bundle\\.js",
+    "/app\\.js",
+    "/main\\.js",
+    "/vendor\\.js",
+    "/chunk\\.js",
+    "\\.min\\.js$",
+    "/webpack",
+    "/node_modules/"
+  ]
+}

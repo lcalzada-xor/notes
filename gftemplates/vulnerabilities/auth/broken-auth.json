@@ -1,0 +1,10 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "/(?:login|signin|auth|authenticate|password|reset|forgot|register|signup)",
+    "[?&](username|user|email|password|pass|pwd|passwd|old_pass|new_pass)=",
+    "/api/v[0-9]/(?:auth|login|user|account|session)",
+    "[?&](2fa|mfa|otp|code|verification|verify)=",
+    "/(?:logout|signout|password-reset|change-password)"
+  ]
+}

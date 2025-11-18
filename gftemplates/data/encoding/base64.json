@@ -1,0 +1,10 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "[A-Za-z0-9+/]{40,}={0,2}",
+    "base64,[A-Za-z0-9+/]+=*",
+    "[?&]([a-zA-Z0-9_-]+)=[A-Za-z0-9+/]{20,}={0,2}",
+    "data:.*;base64,",
+    "Content-Transfer-Encoding:\\s*base64"
+  ]
+}

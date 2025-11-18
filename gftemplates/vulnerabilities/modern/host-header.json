@@ -1,0 +1,13 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "Host:\\s*",
+    "X-Forwarded-Host:\\s*",
+    "X-Host:\\s*",
+    "X-Original-Host:\\s*",
+    "X-Forwarded-Server:\\s*",
+    "/password-reset",
+    "/reset-link",
+    "/verify-email"
+  ]
+}

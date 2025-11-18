@@ -1,0 +1,15 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "cloudflare",
+    "akamai",
+    "fastly",
+    "cloudfront\\.net",
+    "amazonaws\\.com",
+    "azureedge\\.net",
+    "googleusercontent\\.com",
+    "cdn\\.jsdelivr\\.net",
+    "cdnjs\\.cloudflare\\.com",
+    "unpkg\\.com"
+  ]
+}

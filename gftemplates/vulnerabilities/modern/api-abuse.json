@@ -1,0 +1,15 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "/api/v[0-9]",
+    "/rest/",
+    "/api/internal/",
+    "/api/admin/",
+    "/api/debug/",
+    "/api/test/",
+    "/api/v[0-9]/user/[0-9]+",
+    "/swagger",
+    "/api-docs",
+    "/openapi\\.json"
+  ]
+}

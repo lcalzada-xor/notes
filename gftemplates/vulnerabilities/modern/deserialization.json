@@ -1,0 +1,11 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](data|object|payload|serialize|deserialize|unserialize)=",
+    "rO0AB",
+    "aced0005",
+    "\\{\"@class\":",
+    "\\{\"__class__\":",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(pickle|marshal|yaml\\.load|eval|exec)"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "X-Powered-By:",
+    "Server:",
+    "/wp-content/",
+    "/wp-includes/",
+    "/wp-json/",
+    "/_next/",
+    "/nuxt/",
+    "/__nuxt/",
+    "/static/react/",
+    "/laravel/",
+    "/symfony/",
+    "/spring/",
+    "/struts/",
+    "/rails/",
+    "/django/",
+    "/flask/"
+  ]
+}

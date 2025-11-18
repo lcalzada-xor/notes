@@ -1,0 +1,9 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](file|path|folder|dir|directory|filepath|filename)=",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(\\.\\./|\\.\\.\\/|%2e%2e/|%2e%2e%5c)",
+    "[?&](download|read|load|view|show|get|fetch)=",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(/etc/|/var/|/proc/|C:/|c:\\\\)"
+  ]
+}

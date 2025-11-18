@@ -1,0 +1,11 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "[?&](file|upload|document|attachment|image|photo|avatar|picture)=",
+    "[?&](filename|filepath|path|dir|directory)=",
+    "[?&](type|mimetype|content-type|contenttype)=",
+    "[?&](size|filesize|length)=",
+    "/upload",
+    "/api/v[0-9]/upload"
+  ]
+}

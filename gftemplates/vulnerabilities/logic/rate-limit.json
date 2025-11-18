@@ -1,0 +1,10 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "/api/v[0-9]/(?:login|register|verify|otp|reset|forgot)",
+    "/(?:password-reset|send-otp|verify-email|resend)",
+    "[?&](email|phone|mobile|username)=",
+    "/api/v[0-9]/(?:sms|email|notification)/send",
+    "/(?:vote|like|comment|post|upload|create)"
+  ]
+}

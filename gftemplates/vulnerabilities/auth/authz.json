@@ -1,0 +1,10 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](role|admin|privilege|permission|access|level|group|scope)=",
+    "[?&]is_(admin|superuser|staff|moderator)=",
+    "[?&](user_type|account_type|member_level)=",
+    "/api/v[0-9]/admin/",
+    "[?&](acl|policy|grant)="
+  ]
+}

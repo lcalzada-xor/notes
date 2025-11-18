@@ -1,0 +1,11 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&]([a-zA-Z0-9_-]+)=(.*?select|union|insert|delete|update|drop|create|alter)",
+    "[?&](id|user|account|page|product|category|search|query|filter|order|sort|limit|offset)=",
+    "[?&]([a-zA-Z0-9_-]*)(sql|db|database|table|column|where|query)[a-zA-Z0-9_-]*=",
+    "\\.(php|asp|aspx|jsp)\\?[^\\s]*?\\b(and|or|union|select)\\b",
+    "[?&]([a-zA-Z0-9_-]+)=.*?('|%27|--|#|%23|;|%3B)",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(sleep|benchmark|waitfor|delay)"
+  ]
+}

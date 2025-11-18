@@ -1,0 +1,17 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "/wp-content/",
+    "/wp-admin/",
+    "/drupal/",
+    "/joomla/",
+    "/sites/default/",
+    "/administrator/",
+    "/typo3/",
+    "/magento/",
+    "/shopify/",
+    "/woocommerce/",
+    "/prestashop/",
+    "/opencart/"
+  ]
+}

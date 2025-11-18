@@ -1,0 +1,9 @@
+{
+  "flags": "-HnrioE",
+  "patterns": [
+    "%[0-9a-fA-F]{2}",
+    "%20|%3D|%26|%3F|%2F",
+    "Content-Type:\\s*application/x-www-form-urlencoded",
+    "[?&]([a-zA-Z0-9_-]+)=.*?%[0-9a-fA-F]{2}"
+  ]
+}

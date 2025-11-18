@@ -1,0 +1,14 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "ws://",
+    "wss://",
+    "WebSocket\\(",
+    "socket\\.io",
+    "/socket\\.io/",
+    "/ws/",
+    "/websocket",
+    "Sec-WebSocket-",
+    "Upgrade:\\s*websocket"
+  ]
+}

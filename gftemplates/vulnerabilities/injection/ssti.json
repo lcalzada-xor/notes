@@ -1,0 +1,11 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](template|tmpl|view|layout|theme|page|render|engine)=",
+    "\\{\\{.*?\\}\\}",
+    "\\{%.*?%\\}",
+    "\\$\\{.*?\\}",
+    "[?&]([a-zA-Z0-9_-]+)=.*?(\\{\\{|\\{%|<%=|<\\?=)",
+    "[?&](expr|expression|format|pattern)="
+  ]
+}

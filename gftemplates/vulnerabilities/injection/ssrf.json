@@ -1,0 +1,11 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](url|uri|path|dest|destination|redirect|return|continue|next|link|load|fetch|file|document)=https?://",
+    "[?&](proxy|callback|webhook|feed|source|target|host|domain|server|port|address)=",
+    "[?&]([a-zA-Z0-9_-]*)(api|endpoint|service|request|remote)[a-zA-Z0-9_-]*=https?://",
+    "\\?[^\\s]*?=(http://|https://|file://|gopher://|dict://|ftp://|sftp://)",
+    "[?&](image|img|avatar|icon|logo|picture|photo)=https?://",
+    "[?&](redirect|redirect_uri|return_url|continue_url|next_url)="
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "flags": "-HnriE",
+  "patterns": [
+    "[?&](id|user|account|profile|document|file|report|order|invoice|uid|userid|user_id)=[0-9]+",
+    "/api/v[0-9]/(?:user|account|profile|order|invoice|document|file)/[0-9]+",
+    "[?&]([a-zA-Z0-9_-]*)(uuid|guid|objectid|ref)[a-zA-Z0-9_-]*=",
+    "[?&](customer|client|member|employee)_?(id|num|number)=[0-9]+",
+    "/(?:user|profile|account|member)/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+  ]
+}
