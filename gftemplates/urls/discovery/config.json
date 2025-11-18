@@ -1,0 +1,13 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "config",
+        "conf",
+        "cfg",
+        "ini",
+        "env",
+        "properties",
+        "settings",
+        "setup"
+    ]
+}

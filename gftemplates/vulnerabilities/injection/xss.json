@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&]([a-zA-Z0-9_-]+)=.*?(<|%3C|&lt;|\\\\x3c|\\\\u003c)",
     "[?&](q|query|search|keyword|name|comment|msg|message|description|text|input|title|subject)=",

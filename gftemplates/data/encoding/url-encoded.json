@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "%[0-9a-fA-F]{2}",
     "%20|%3D|%26|%3F|%2F",

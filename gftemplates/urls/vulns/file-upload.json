@@ -1,0 +1,6 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "[?&](file|upload|image|avatar|doc|pdf|picture|photo|video)="
+    ]
+}

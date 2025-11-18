@@ -1,0 +1,12 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "\\.log$",
+        "\\.txt$",
+        "\\.conf$",
+        "\\.xml$",
+        "\\.json$",
+        "\\.bak$",
+        "\\.sql$"
+    ]
+}

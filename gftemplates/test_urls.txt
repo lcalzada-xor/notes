@@ -1,0 +1,14 @@
+http://example.com/page?template=test
+http://example.com/user?id=123
+http://example.com/upload?file=image.png
+http://example.com/config.ini
+http://example.com/backup.sql
+http://example.com/install/wizard
+http://example.com/login
+http://example.com/register
+http://example.com/?webhook=http://evil.com
+http://example.com/api/v4/users
+http://example.com/?pg=home
+http://example.com/?lang=en
+http://example.com/?analyze=true
+http://example.com/?out=http://google.com

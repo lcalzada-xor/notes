@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "/api/v[0-9]/(?:order|payment|purchase|checkout|transfer|transaction|withdraw)",
     "[?&](quantity|amount|balance|credit|points|coins|money)=",

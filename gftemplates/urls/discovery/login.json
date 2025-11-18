@@ -1,0 +1,11 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "login",
+        "signin",
+        "sign_in",
+        "log_in",
+        "auth",
+        "authenticate"
+    ]
+}

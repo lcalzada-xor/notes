@@ -1,0 +1,6 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "[?&](id|user_id|account_id|order_id|invoice_id|profile_id|report_id|customer_id|transaction_id)="
+    ]
+}

@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "/(?:login|signin|auth|authenticate|password|reset|forgot|register|signup)",
     "[?&](username|user|email|password|pass|pwd|passwd|old_pass|new_pass)=",

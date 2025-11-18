@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](cmd|command|exec|execute|run|shell|daemon|ping|ip|host|test)=",
     "[?&]([a-zA-Z0-9_-]+)=.*?(whoami|ifconfig|ipconfig|ls|cat|echo|wget|curl|nc|netcat)",

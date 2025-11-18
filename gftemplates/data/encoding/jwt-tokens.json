@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "eyJ[A-Za-z0-9_-]*\\.eyJ[A-Za-z0-9_-]*\\.[A-Za-z0-9_-]*",
     "Bearer\\s+eyJ[A-Za-z0-9_-]+",

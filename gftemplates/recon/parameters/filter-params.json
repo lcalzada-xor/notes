@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "[?&](filter|search|query|q|keyword|term)=",
     "[?&](sort|sortby|orderby|order)=",

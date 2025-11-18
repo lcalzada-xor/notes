@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](role|admin|privilege|permission|access|level|group|scope)=",
     "[?&]is_(admin|superuser|staff|moderator)=",

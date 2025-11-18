@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "/(?:delete|remove|update|edit|change|modify|transfer|withdraw)",
     "/api/v[0-9]/(?:user|account|profile|settings)",

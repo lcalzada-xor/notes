@@ -1,0 +1,14 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "backup",
+        "bak",
+        "old",
+        "swp",
+        "~",
+        "git",
+        "svn",
+        "dump",
+        "sql"
+    ]
+}

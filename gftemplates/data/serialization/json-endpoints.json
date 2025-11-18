@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "Content-Type:\\s*application/json",
     "\\.json$",

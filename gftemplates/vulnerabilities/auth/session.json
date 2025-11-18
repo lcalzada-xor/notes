@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](session|sess|sessionid|sid|token|auth|authtoken)=",
     "Cookie:\\s*(PHPSESSID|JSESSIONID|ASPSESSIONID|session|auth|token)",

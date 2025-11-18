@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](file|document|folder|root|path|pg|page|include|template|view|dir|locale|lang|language)=",
     "[?&]([a-zA-Z0-9_-]+)=.*?(\\.\\./|%2e%2e/|\\.\\.\\/|%2e%2e%5c|\\.\\.\\\\|%252e%252e)",

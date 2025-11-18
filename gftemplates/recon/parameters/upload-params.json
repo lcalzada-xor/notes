@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "[?&](file|upload|document|attachment|image|photo|avatar|picture)=",
     "[?&](filename|filepath|path|dir|directory)=",

@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](file|path|folder|dir|directory|filepath|filename)=",
     "[?&]([a-zA-Z0-9_-]+)=.*?(\\.\\./|\\.\\.\\/|%2e%2e/|%2e%2e%5c)",

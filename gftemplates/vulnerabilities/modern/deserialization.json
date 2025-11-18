@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](data|object|payload|serialize|deserialize|unserialize)=",
     "rO0AB",

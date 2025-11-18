@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](client_id|client_secret|redirect_uri|response_type|scope|state|code|grant_type)=",
     "/oauth/(authorize|token|callback|login|consent)",

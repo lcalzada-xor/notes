@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&]([a-zA-Z0-9_-]+)=.*?(%0d%0a|%0a|%0d|\\\\r\\\\n|\\\\n|\\\\r)",
     "[?&](redirect|return|url|location)=.*?(%0d|%0a)",

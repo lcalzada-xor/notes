@@ -1,0 +1,10 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "register",
+        "signup",
+        "sign_up",
+        "join",
+        "create_account"
+    ]
+}

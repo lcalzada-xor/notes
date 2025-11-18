@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](redirect|url|next|return|continue|redir|redirect_uri|return_url|returnto|returnUrl)=https?://",
     "[?&](dest|destination|goto|target|view|checkout|forward|to)=",

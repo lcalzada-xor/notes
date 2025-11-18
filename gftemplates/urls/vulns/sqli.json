@@ -1,0 +1,7 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "[?&](id|select|report|role|update|query|user|name|sort|where|search|params|process|row|view|table|from|sel|results|sleep|fetch|order|keyword|column|field|delete|string|number|filter|cat|category|itemid|username|email|group|limit|offset|insert|having|procedure|analyze)=",
+        "[?&](order_by|sort_by|group_by|limit|offset)="
+    ]
+}

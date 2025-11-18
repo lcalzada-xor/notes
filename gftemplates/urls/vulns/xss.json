@@ -1,0 +1,7 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "[?&](q|query|search|keyword|name|comment|msg|message|description|text|input|title|subject|s|item|ref|search_term|page_title|p|lang|year)=",
+        "[?&](callback|jsonp|api_key|api|password|email|user_id|username|u|user)="
+    ]
+}

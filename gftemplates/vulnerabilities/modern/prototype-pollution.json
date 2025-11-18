@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](__proto__|constructor|prototype)=",
     "[?&]([a-zA-Z0-9_-]+)\\[(__proto__|constructor|prototype)\\]",

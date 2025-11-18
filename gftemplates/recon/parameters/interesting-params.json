@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "[?&](debug|test|demo|dev|staging|admin|root|config|backup|temp|old)=",
     "[?&](key|token|secret|password|pass|pwd|api|auth)=",

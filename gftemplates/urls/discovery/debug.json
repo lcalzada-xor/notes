@@ -1,0 +1,9 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "debug",
+        "test",
+        "dev",
+        "staging"
+    ]
+}

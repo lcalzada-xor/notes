@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](xml|feed|soap|wsdl|rss|atom|sitemap)=",
     "<!ENTITY",

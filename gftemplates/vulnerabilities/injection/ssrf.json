@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](url|uri|path|dest|destination|redirect|return|continue|next|link|load|fetch|file|document)=https?://",
     "[?&](proxy|callback|webhook|feed|source|target|host|domain|server|port|address)=",

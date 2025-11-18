@@ -1,0 +1,18 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "api",
+        "v1",
+        "v2",
+        "graphql",
+        "swagger",
+        "rest",
+        "soap",
+        "rpc",
+        "internal",
+        "private",
+        "v3",
+        "v4",
+        "v5"
+    ]
+}

@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "\\.(bak|backup|old|orig|original|save|saved|copy|tmp|temp)$",
     "\\.zip$",

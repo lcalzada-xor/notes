@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](template|tmpl|view|layout|theme|page|render|engine)=",
     "\\{\\{.*?\\}\\}",

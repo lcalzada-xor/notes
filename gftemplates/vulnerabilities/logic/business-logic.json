@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](price|cost|total|subtotal|amount|value)=",
     "[?&](discount|coupon|promo|voucher|offer)=",

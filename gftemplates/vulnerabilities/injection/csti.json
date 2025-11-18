@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](template|tmpl|view|email|mail|message|content|body)=",
     "\\{\\{.*?\\}\\}",

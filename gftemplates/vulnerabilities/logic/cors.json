@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "Access-Control-Allow-Origin:\\s*\\*",
     "Access-Control-Allow-Origin:\\s*null",

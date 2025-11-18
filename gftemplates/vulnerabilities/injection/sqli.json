@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&]([a-zA-Z0-9_-]+)=(.*?select|union|insert|delete|update|drop|create|alter)",
     "[?&](id|user|account|page|product|category|search|query|filter|order|sort|limit|offset)=",

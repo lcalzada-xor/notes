@@ -1,0 +1,6 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "[?&](cmd|exec|command|execute|ping|query|jump|code|reg|do|func|arg|option|load|process|step|read|function|req|feature|exe|module|payload|run|print|cli|ip|host)="
+    ]
+}

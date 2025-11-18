@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "[?&](id|user|account|profile|document|file|report|order|invoice|uid|userid|user_id)=[0-9]+",
     "/api/v[0-9]/(?:user|account|profile|order|invoice|document|file)/[0-9]+",

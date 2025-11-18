@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "/api/v[0-9]",
     "/api/v[0-9]\\.[0-9]",

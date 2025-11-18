@@ -1,5 +1,5 @@
 {
-  "flags": "-HnriE",
+  "flags": "-HriE",
   "patterns": [
     "/api/v[0-9]/(?:login|register|verify|otp|reset|forgot)",
     "/(?:password-reset|send-otp|verify-email|resend)",

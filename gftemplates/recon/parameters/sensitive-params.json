@@ -1,5 +1,5 @@
 {
-  "flags": "-HnrioE",
+  "flags": "-HrioE",
   "patterns": [
     "[?&](email|mail|e-mail|e_mail)=",
     "[?&](phone|mobile|tel|telephone|cell)=",

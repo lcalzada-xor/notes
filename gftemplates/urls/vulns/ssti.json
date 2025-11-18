@@ -1,0 +1,6 @@
+{
+    "flags": "-HriE",
+    "patterns": [
+        "[?&](template|preview|id|view|activity|name|content|tpl|return)="
+    ]
+}
